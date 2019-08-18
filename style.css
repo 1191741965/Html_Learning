@@ -89,24 +89,254 @@
         box-shadow: gray 0 0 200px;
         width: 500px;
     }
+
+    /*400px*/
     @media screen and (max-width: 400px){
         .features{
             background: yellowgreen;
         }
+        .features figure img{
+            border: 1px solid white;
+            border-radius: 10px;
+            box-shadow: gray 0 0 10px;
+            width: 40px;
+        }
+        .features figure{
+            margin: auto;
+            text-align: center;
+            width: 10px;
+            text-transform: uppercase;
+        }
+        .main{
+            background: white;
+            color: gray;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .main figure img{
+            border: 1px solid white;
+            border-radius: 8%;
+            box-shadow: gray 120px 0 120px;
+            width: 120px;
+        }
+
+        header{
+            background: black;
+            background-image: url("images/jiemian.jpg");
+            background-size: auto;
+            background-position: center;
+            margin: 0px;
+            padding: 7px;
+            height:300px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        header .logo a{
+            background-image: url("images/logo_new_gaitubao_98x30_gaitubao_78x24.png");
+            background-size: 78px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            height:24px;
+            position: relative;
+            text-indent: -9999999999px;
+            padding: 0px 0px 0px 2px;
+            top: -11px;
+            width: 78px;
+            color: white;
+        }
+        a{
+            font-size: 15px;
+        }
+        .features figure figcaption{
+            font-size: 5px;
+            text-align: center;
+        }
     }
+    /*800px*/
     @media screen and (max-width: 800px){
         .features{
             background: pink;
         }
+        .features figure img{
+            border: 1px solid white;
+            border-radius: 50%;
+            box-shadow: gray 0 0 10px;
+            width: 30px;
+        }
+        .features figure{
+            margin: auto;
+            text-align: center;
+            width: 10px;
+            text-transform: uppercase;
+        }
+        .main{
+            background: white;
+            color: gray;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .main figure img{
+            border: 1px solid white;
+            border-radius: 8%;
+            box-shadow: gray 0 0 200px;
+            width: 100px;
+        }
+
+        header{
+            background: black;
+            background-image: url("images/jiemian.jpg");
+            background-size: auto;
+            background-position: center;
+            padding: 1px;
+            height:300px;
+            text-align: center;
+        }
+
+        header .logo a{
+            background-image: url("images/logo_new_gaitubao_98x30_gaitubao_78x24.png");
+            background-size: 78px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            height:24px;
+            position: relative;
+            text-indent: -9999999999px;
+            top: -0px;
+            width: 78px;
+            color: white;
+        }
+        a{
+            font-size: 8px;
+        }
     }
+
+    /*400px*/
     @media screen and (max-width: 400px){
         .features{
             background: yellowgreen;
         }
+        .features figure img{
+            border: 1px solid white;
+            border-radius: 50%;
+            box-shadow: gray 0 0 10px;
+            width: 40px;
+        }
+        .features figure{
+            margin: auto;
+            text-align: center;
+            width: 10px;
+            text-transform: uppercase;
+        }
+        .main{
+            background: white;
+            color: gray;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .main figure img{
+            border: 1px solid white;
+            border-radius: 8%;
+            box-shadow: gray 0 0 200px;
+            width: 100px;
+        }
+
+        header{
+            background: black;
+            background-image: url("images/jiemian.jpg");
+            background-size: auto;
+            background-position: center;
+            padding: 1px;
+            height:300px;
+            text-align: center;
+        }
+
+        header .logo a{
+            background-image: url("images/logo_new_gaitubao_98x30_gaitubao_78x24.png");
+            background-size: 78px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            height:24px;
+            position: relative;
+            text-indent: -9999999999px;
+            top: -0px;
+            width: 78px;
+            color: white;
+        }
+        a{
+            font-size: 11px;
+        }
+    
     }
+
+    /*800px*/
     @media screen and (max-width: 800px){
         .main{
             background: pink;
         }
+        .features figure img{
+            border: 1px solid white;
+            border-radius: 50%;
+            box-shadow: gray 0 0 10px;
+            width: 40px;
+        }
+        .features figure{
+            margin: auto;
+            text-align: center;
+            width: 20px;
+            text-transform: uppercase;
+        }
+        .features figure{
+            margin: auto;
+            text-align: center;
+            width: 10px;
+            text-transform: uppercase;
+        }
+        .main{
+            background: white;
+            color: gray;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .main figure img{
+            border: 1px solid white;
+            border-radius: 8%;
+            box-shadow: gray 0 0 200px;
+            width: 100px;
+        }
+
+        header{
+            background: black;
+            background-image: url("images/jiemian.jpg");
+            background-size: auto;
+            background-position: center;
+            padding: 1px;
+            height:300px;
+            text-align: center;
+        }
+
+        header .logo a{
+            background-image: url("images/logo_new_gaitubao_98x30_gaitubao_78x24.png");
+            background-size: 78px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            height:24px;
+            position: relative;
+            text-indent: -9999999999px;
+            top: -0px;
+            width: 78px;
+            color: white;
+        }
+        a{
+            font-size: 11px;
+        }
+    
     }
    
